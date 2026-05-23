@@ -1,0 +1,13 @@
+Program cs - main
+Journal cs - journal entries
+    - _entries : List<Entry>
+    - AddEntry(newEntry : Entry) : void
+    - DisplayAll() : void
+    - SaveToFile(file : string)
+    - LoadFromFile(file : string)
+PromptGenerator cs = questions for the user
+    - questions for the user (at least five)
+    - _prompts : List<string>
+    - getRandomPrompt() : string
+Entry cs = single entry
+    - Display() : void

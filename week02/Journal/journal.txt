@@ -1,13 +1,2 @@
-Program cs - main
-Journal cs - journal entries
-    - _entries : List<Entry>
-    - AddEntry(newEntry : Entry) : void
-    - DisplayAll() : void
-    - SaveToFile(file : string)
-    - LoadFromFile(file : string)
-PromptGenerator cs = menu of questions to a user
-    - questions to the user (at least five)
-    - _prompts : List<string>
-    - getRandomPrompt() : string
-Entry cs = single entry
-    - Display() : void
+5/23/2026 - What was the best part of your day? - I played some video games.
+5/23/2026 - Who did you spend the most time with today and what did you do? - My wife and my new puppy. We went out to the store to buy our puppy some treats, it was a lot of fun!
