@@ -27,7 +27,7 @@ class Program
             if (input.ToLower() == "quit")
                 break;
 
-            scripture.HideRandomWords(2);
+            scripture.HideRandomWords(rand.Next(1, 3));
         }
     }
 }
